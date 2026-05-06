@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tryradar.com/sitemap.xml
+Sitemap: https://tryradar.app/sitemap.xml

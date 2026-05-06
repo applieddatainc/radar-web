@@ -11,10 +11,21 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Radar | Stay Ahead with Curated Intelligence",
   description: "Radar filters the noise and brings you the signal. Join thousands of high-performers who stay informed without the burn-out. Curated feeds, expert sources, and weekly digests.",
+  keywords: [
+    "content curation",
+    "personalized news app",
+    "expert insights",
+    "high-performance app",
+    "curated intelligence",
+    "weekly digest app",
+    "productivity tools",
+    "best news app for iOS",
+    "best news app for Android"
+  ],
   openGraph: {
     title: "Radar | Stay Ahead with Curated Intelligence",
     description: "The intelligence layer for high-performers. Curated feeds and expert insights.",
-    images: ["/images/og-image.png"],
+    images: ["/og-image.png"],
   },
 };
 

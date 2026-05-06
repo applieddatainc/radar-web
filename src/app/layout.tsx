@@ -8,19 +8,34 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tryradar.app"),
   title: {
     template: "%s | RADAR",
     default: "Waitlist | RADAR - The Intelligence Layer for High-Performers",
   },
   description: "Join the waitlist for RADAR. Advanced curated feeds, weekly digests, and expert insights to help you level up and stay ahead.",
+  keywords: [
+    "radar app",
+    "mobile app",
+    "iOS news app",
+    "Android productivity app",
+    "content reader app",
+    "news aggregator app",
+    "curation tool",
+    "smart news app",
+    "knowledge management app"
+  ],
+  alternates: {
+    canonical: "https://tryradar.app",
+  },
   openGraph: {
     title: "RADAR",
     description: "Level Up & Stay Up to Date with RADAR",
-    url: "https://tryradar.com",
+    url: "https://tryradar.app",
     siteName: "RADAR",
     images: [
       {
-        url: "https://tryradar.com/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -32,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "RADAR",
     description: "Level Up & Stay Up to Date with RADAR",
-    images: ["https://tryradar.com/og-image.png"],
+    images: ["/og-image.png"],
   },
 };
 
@@ -45,10 +60,10 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "TryRadar",
-    "url": "https://tryradar.com",
+    "url": "https://tryradar.app",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://tryradar.com/search?q={search_term_string}",
+      "target": "https://tryradar.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
