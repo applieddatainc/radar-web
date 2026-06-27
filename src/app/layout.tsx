@@ -1,3 +1,4 @@
+// Trigger Vercel rebuild for deep linking and CSS configurations
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
