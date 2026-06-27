@@ -1,0 +1,27 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.applieddata.radar",
+      "sha256_cert_fingerprints": [
+        "D5:BA:FE:E7:F3:04:BF:FF:8B:BD:C7:38:F7:5D:24:FB:D2:D4:AB:09:F6:AC:96:5E:59:98:9D:CA:E6:3D:59:BD",
+        "76:35:F9:96:D9:3C:F8:D6:40:6E:BF:72:E8:AF:C6:B9:FE:9D:02:C9:42:D5:77:69:68:68:D1:0C:ED:AB:C4:7F"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.applieddata.radar",
+      "sha256_cert_fingerprints": [
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+      ]
+    }
+  }
+]
